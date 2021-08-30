@@ -15,7 +15,7 @@ ____________________________________
 
 ## Create Nodes
 
-1. Create two accounts for node1 and node2 using the following command
+### 1. Create two accounts for node1 and node2 using the following command
 
 - ./geth account new --datadir node1
 - ./geth account new --datadir node2
@@ -25,7 +25,7 @@ ____________________________________
 
 ## Genesis Block
 
- 2. Create genesis block
+ ### 2. Create genesis block
 
 * Run the following commands:
 
@@ -50,7 +50,7 @@ ____________________________________
 - Export genesis configurations. This will fail to create two of the files, but you only need 'network_name.json'. (Check to see if the nodes are inside the folder)
 
 
-3. Initialize the Nodes
+### 3. Initialize the Nodes
 
 * Run the following commands using Geth.
 
@@ -58,7 +58,7 @@ ____________________________________
 - ./geth init network_name.json --datadir node2
 
 
-4. Set the nodes to mine blocks and Synchronize
+### 4. Set the nodes to mine blocks and Synchronize
 
 * Open up 2 seperate terminal windows inside the same geth folder and run the following commands in a seperate terminal:
 
